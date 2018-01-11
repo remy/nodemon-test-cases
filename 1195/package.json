@@ -1,0 +1,26 @@
+{
+  "name": "1195",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "crypto": "^1.0.1",
+    "express": "^4.16.2",
+    "express-fileupload": "^0.3.0",
+    "fs-extra": "^5.0.0",
+    "hex2dec": "^1.0.1",
+    "moment": "^2.20.1",
+    "mongodb": "^2.2.33",
+    "node-zstd": "^2.0.1",
+    "nodemon": "^1.14.6",
+    "serve-index": "^1.9.1",
+    "zlib": "^1.0.5"
+  }
+}

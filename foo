@@ -1,0 +1,4 @@
+[nodemon] fix/ignore-at-root: 03f8a39f22d7aa61c0435d0cf5c9dd912ca339f2 (2 dirty files)
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node http.js`

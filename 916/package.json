@@ -1,0 +1,17 @@
+{
+  "name": "916",
+  "version": "1.0.0",
+  "main": "foo.git/http.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@remy/pstree": "^1.1.0",
+    "undefsafe": "^2.0.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}

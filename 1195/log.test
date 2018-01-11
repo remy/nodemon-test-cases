@@ -1,0 +1,355 @@
+[33m[nodemon] master: 0c78a9c7a098a55c2d814fba20a89f20273534be[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: test.js[39m
+[32m[nodemon] starting `node -Vnode node_modules/nodemon/bin/nodemon.js test.js`[39m
+node: bad option: -Vnode
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+module.js:538
+    throw err;
+    ^
+
+Error: Cannot find module '/Users/remy/Sites/nodemon/tmp/1195/node_modules/nodemon/bin/nodemon.js'
+    at Function.Module._resolveFilename (module.js:536:15)
+    at Function.Module._load (module.js:466:25)
+    at Function.Module.runMain (module.js:676:10)
+    at startup (bootstrap_node.js:187:16)
+    at bootstrap_node.js:608:3
+[33m[nodemon] 1.14.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: test.js[39m
+[32m[nodemon] starting `node test.js`[39m
+(node:35743) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: ENOENT: no such file or directory, stat '/Users/remy/Sites/nodemon/tmp/1195/network/best-network.gz'
+(node:35743) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Caught exception: TypeError: db.collection is not a function
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node test.js`[39m
+(node:36894) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: ENOENT: no such file or directory, stat '/Users/remy/Sites/nodemon/tmp/1195/network/best-network.gz'
+(node:36894) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+MongoClient {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  s: 
+   { url: 'mongodb://localhost/test',
+     options: 
+      { socketOptions: {},
+        read_preference_tags: null,
+        readPreference: [Object],
+        dbName: 'test',
+        servers: [Array],
+        server_options: [Object],
+        db_options: [Object],
+        rs_options: [Object],
+        mongos_options: [Object],
+        socketTimeoutMS: 360000,
+        connectTimeoutMS: 30000,
+        promiseLibrary: [Function: Promise] },
+     promiseLibrary: [Function: Promise],
+     dbCache: {},
+     sessions: [] },
+  topology: 
+   Server {
+     domain: null,
+     _events: 
+      { serverOpening: [Function],
+        serverDescriptionChanged: [Function],
+        serverHeartbeatStarted: [Function],
+        serverHeartbeatSucceeded: [Function],
+        serverHeartbeatFailed: [Function],
+        serverClosed: [Function],
+        topologyOpening: [Function],
+        topologyClosed: [Function],
+        topologyDescriptionChanged: [Function],
+        joined: [Function],
+        left: [Function],
+        ping: [Function],
+        ha: [Function],
+        authenticated: [Function],
+        error: [Function],
+        timeout: [Function],
+        close: [Function],
+        parseError: [Function],
+        open: [Object],
+        fullsetup: [Object],
+        all: [Object],
+        reconnect: [Function] },
+     _eventsCount: 22,
+     _maxListeners: undefined,
+     clientInfo: 
+      { driver: [Object],
+        os: [Object],
+        platform: 'Node.js v8.9.1, LE' },
+     s: 
+      { coreTopology: [Object],
+        sCapabilities: null,
+        clonedOptions: [Object],
+        reconnect: true,
+        emitError: true,
+        poolSize: 5,
+        storeOptions: [Object],
+        store: [Object],
+        host: 'localhost',
+        port: 27017,
+        options: [Object],
+        sessionPool: [Object],
+        promiseLibrary: [Function: Promise] } } }
+Caught exception: TypeError: db.collection is not a function
+[32m[nodemon] starting `node test.js`[39m
+(node:36934) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: ENOENT: no such file or directory, stat '/Users/remy/Sites/nodemon/tmp/1195/network/best-network.gz'
+(node:36934) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+MongoClient {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  s: 
+   { url: 'mongodb://localhost/test',
+     options: 
+      { socketOptions: {},
+        read_preference_tags: null,
+        readPreference: [Object],
+        dbName: 'test',
+        servers: [Array],
+        server_options: [Object],
+        db_options: [Object],
+        rs_options: [Object],
+        mongos_options: [Object],
+        socketTimeoutMS: 360000,
+        connectTimeoutMS: 30000,
+        promiseLibrary: [Function: Promise] },
+     promiseLibrary: [Function: Promise],
+     dbCache: {},
+     sessions: [] },
+  topology: 
+   Server {
+     domain: null,
+     _events: 
+      { serverOpening: [Function],
+        serverDescriptionChanged: [Function],
+        serverHeartbeatStarted: [Function],
+        serverHeartbeatSucceeded: [Function],
+        serverHeartbeatFailed: [Function],
+        serverClosed: [Function],
+        topologyOpening: [Function],
+        topologyClosed: [Function],
+        topologyDescriptionChanged: [Function],
+        joined: [Function],
+        left: [Function],
+        ping: [Function],
+        ha: [Function],
+        authenticated: [Function],
+        error: [Function],
+        timeout: [Function],
+        close: [Function],
+        parseError: [Function],
+        open: [Object],
+        fullsetup: [Object],
+        all: [Object],
+        reconnect: [Function] },
+     _eventsCount: 22,
+     _maxListeners: undefined,
+     clientInfo: 
+      { driver: [Object],
+        os: [Object],
+        platform: 'Node.js v8.9.1, LE' },
+     s: 
+      { coreTopology: [Object],
+        sCapabilities: null,
+        clonedOptions: [Object],
+        reconnect: true,
+        emitError: true,
+        poolSize: 5,
+        storeOptions: [Object],
+        store: [Object],
+        host: 'localhost',
+        port: 27017,
+        options: [Object],
+        sessionPool: [Object],
+        promiseLibrary: [Function: Promise] } } }
+Caught exception: TypeError: db.collection is not a function
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node test.js`[39m
+(node:36951) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: ENOENT: no such file or directory, stat '/Users/remy/Sites/nodemon/tmp/1195/network/best-network.gz'
+(node:36951) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Caught exception: TypeError: db.collection is not a function
+[33m[nodemon] 1.14.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: test.js[39m
+[32m[nodemon] starting `node --trace-warning test.js`[39m
+node: bad option: --trace-warning
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 1.14.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: test.js[39m
+[32m[nodemon] starting `node --trace-warnings test.js`[39m
+(node:37725) Error: ENOENT: no such file or directory, stat '/Users/remy/Sites/nodemon/tmp/1195/network/best-network.gz'
+(node:37725) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+    at emitWarning (internal/process/promises.js:78:15)
+    at emitPendingUnhandledRejections (internal/process/promises.js:95:11)
+    at runMicrotasksCallback (internal/process/next_tick.js:124:9)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Caught exception: TypeError: db.collection is not a function
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node --trace-warnings test.js`[39m
+(node:38030) Error: ENOENT: no such file or directory, stat '/Users/remy/Sites/nodemon/tmp/1195/network/best-network.gz'
+(node:38030) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+    at emitWarning (internal/process/promises.js:78:15)
+    at emitPendingUnhandledRejections (internal/process/promises.js:95:11)
+    at runMicrotasksCallback (internal/process/next_tick.js:124:9)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+/Users/remy/Sites/nodemon/tmp/1195/node_modules/mongodb/lib/mongo_client.js:797
+          throw err;
+          ^
+
+TypeError: db.collection is not a function
+    at MongoClient.connect (/Users/remy/Sites/nodemon/tmp/1195/test.js:273:6)
+    at args.push (/Users/remy/Sites/nodemon/tmp/1195/node_modules/mongodb/lib/utils.js:404:72)
+    at /Users/remy/Sites/nodemon/tmp/1195/node_modules/mongodb/lib/mongo_client.js:255:5
+    at connectCallback (/Users/remy/Sites/nodemon/tmp/1195/node_modules/mongodb/lib/mongo_client.js:933:5)
+    at /Users/remy/Sites/nodemon/tmp/1195/node_modules/mongodb/lib/mongo_client.js:794:11
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] starting `node --trace-warnings test.js`[39m
+(node:38518) Error: ENOENT: no such file or directory, stat '/Users/remy/Sites/nodemon/tmp/1195/network/best-network.gz'
+(node:38518) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+    at emitWarning (internal/process/promises.js:78:15)
+    at emitPendingUnhandledRejections (internal/process/promises.js:95:11)
+    at runMicrotasksCallback (internal/process/next_tick.js:124:9)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+0 networks.
+/Users/remy/Sites/nodemon/tmp/1195/node_modules/mongodb/lib/utils.js:123
+    process.nextTick(function() { throw err; });
+                                  ^
+
+TypeError: Cannot read property 'total' of undefined
+    at db.collection.aggregate (/Users/remy/Sites/nodemon/tmp/1195/test.js:296:24)
+    at handleCallback (/Users/remy/Sites/nodemon/tmp/1195/node_modules/mongodb/lib/utils.js:120:56)
+    at /Users/remy/Sites/nodemon/tmp/1195/node_modules/mongodb/lib/collection.js:2695:7
+    at handleCallback (/Users/remy/Sites/nodemon/tmp/1195/node_modules/mongodb/lib/utils.js:120:56)
+    at /Users/remy/Sites/nodemon/tmp/1195/node_modules/mongodb/lib/cursor.js:861:16
+    at handleCallback (/Users/remy/Sites/nodemon/tmp/1195/node_modules/mongodb-core/lib/cursor.js:171:5)
+    at setCursorNotified (/Users/remy/Sites/nodemon/tmp/1195/node_modules/mongodb-core/lib/cursor.js:515:3)
+    at /Users/remy/Sites/nodemon/tmp/1195/node_modules/mongodb-core/lib/cursor.js:597:16
+    at queryCallback (/Users/remy/Sites/nodemon/tmp/1195/node_modules/mongodb-core/lib/cursor.js:232:18)
+    at /Users/remy/Sites/nodemon/tmp/1195/node_modules/mongodb-core/lib/connection/pool.js:469:18
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] starting `node --trace-warnings test.js`[39m
+(node:38600) Error: ENOENT: no such file or directory, stat '/Users/remy/Sites/nodemon/tmp/1195/network/best-network.gz'
+(node:38600) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+    at emitWarning (internal/process/promises.js:78:15)
+    at emitPendingUnhandledRejections (internal/process/promises.js:95:11)
+    at runMicrotasksCallback (internal/process/next_tick.js:124:9)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+0 networks.
+/Users/remy/Sites/nodemon/tmp/1195/node_modules/mongodb/lib/utils.js:123
+    process.nextTick(function() { throw err; });
+                                  ^
+
+TypeError: Cannot read property 'total' of undefined
+    at db.collection.aggregate (/Users/remy/Sites/nodemon/tmp/1195/test.js:296:24)
+    at handleCallback (/Users/remy/Sites/nodemon/tmp/1195/node_modules/mongodb/lib/utils.js:120:56)
+    at /Users/remy/Sites/nodemon/tmp/1195/node_modules/mongodb/lib/collection.js:2695:7
+    at handleCallback (/Users/remy/Sites/nodemon/tmp/1195/node_modules/mongodb/lib/utils.js:120:56)
+    at /Users/remy/Sites/nodemon/tmp/1195/node_modules/mongodb/lib/cursor.js:861:16
+    at handleCallback (/Users/remy/Sites/nodemon/tmp/1195/node_modules/mongodb-core/lib/cursor.js:171:5)
+    at setCursorNotified (/Users/remy/Sites/nodemon/tmp/1195/node_modules/mongodb-core/lib/cursor.js:515:3)
+    at /Users/remy/Sites/nodemon/tmp/1195/node_modules/mongodb-core/lib/cursor.js:597:16
+    at queryCallback (/Users/remy/Sites/nodemon/tmp/1195/node_modules/mongodb-core/lib/cursor.js:232:18)
+    at /Users/remy/Sites/nodemon/tmp/1195/node_modules/mongodb-core/lib/connection/pool.js:469:18
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node --trace-warnings test.js`[39m
+(node:40160) Error: ENOENT: no such file or directory, stat '/Users/remy/Sites/nodemon/tmp/1195/network/best-network.gz'
+(node:40160) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+    at emitWarning (internal/process/promises.js:78:15)
+    at emitPendingUnhandledRejections (internal/process/promises.js:95:11)
+    at runMicrotasksCallback (internal/process/next_tick.js:124:9)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+0 networks.
+0 games.
+listening on 8081
+Error: ENOENT: no such file or directory, stat '/Users/remy/Sites/nodemon/tmp/1195/network/best-network.gz'
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node --trace-warnings test.js`[39m
+(node:40441) Error: ENOENT: no such file or directory, stat '/Users/remy/Sites/nodemon/tmp/1195/network/best-network.gz'
+(node:40441) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+    at emitWarning (internal/process/promises.js:78:15)
+    at emitPendingUnhandledRejections (internal/process/promises.js:95:11)
+    at runMicrotasksCallback (internal/process/next_tick.js:124:9)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+0 networks.
+ok
+0 games.
+listening on 8081
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node --trace-warnings test.js`[39m
+(node:40490) Error: ENOENT: no such file or directory, stat '/Users/remy/Sites/nodemon/tmp/1195/network/best-network.gz'
+(node:40490) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+    at emitWarning (internal/process/promises.js:78:15)
+    at emitPendingUnhandledRejections (internal/process/promises.js:95:11)
+    at runMicrotasksCallback (internal/process/next_tick.js:124:9)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+0 networks.
+ok
+0 games.
+listening on 8081
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node --trace-warnings test.js`[39m
+(node:44838) Error: ENOENT: no such file or directory, stat '/Users/remy/Sites/nodemon/tmp/1195/network/best-network.gz'
+(node:44838) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+    at emitWarning (internal/process/promises.js:78:15)
+    at emitPendingUnhandledRejections (internal/process/promises.js:95:11)
+    at runMicrotasksCallback (internal/process/next_tick.js:124:9)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+0 networks.
+ok
+0 games.
+listening on 8081
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node --trace-warnings test.js`[39m
+(node:44878) Error: ENOENT: no such file or directory, stat '/Users/remy/Sites/nodemon/tmp/1195/network/best-network.gz'
+(node:44878) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+    at emitWarning (internal/process/promises.js:78:15)
+    at emitPendingUnhandledRejections (internal/process/promises.js:95:11)
+    at runMicrotasksCallback (internal/process/next_tick.js:124:9)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+0 networks.
+ok
+0 games.
+listening on 8081
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node --trace-warnings test.js`[39m
+(node:44903) Error: ENOENT: no such file or directory, stat '/Users/remy/Sites/nodemon/tmp/1195/network/best-network.gz'
+(node:44903) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+    at emitWarning (internal/process/promises.js:78:15)
+    at emitPendingUnhandledRejections (internal/process/promises.js:95:11)
+    at runMicrotasksCallback (internal/process/next_tick.js:124:9)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+0 networks.
+ok
+0 games.
+listening on 8081
+[32m[nodemon] starting `node --trace-warnings test.js`[39m
+(node:45217) Error: ENOENT: no such file or directory, stat '/Users/remy/Sites/nodemon/tmp/1195/network/best-network.gz'
+(node:45217) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+    at emitWarning (internal/process/promises.js:78:15)
+    at emitPendingUnhandledRejections (internal/process/promises.js:95:11)
+    at runMicrotasksCallback (internal/process/next_tick.js:124:9)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+0 networks.
+ok
+0 games.
+listening on 8081

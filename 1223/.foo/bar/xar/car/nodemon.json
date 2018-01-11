@@ -1,0 +1,5 @@
+{
+    "watchOptions": {
+        "atomic": false
+    }
+}
