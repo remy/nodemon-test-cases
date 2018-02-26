@@ -1,0 +1,16 @@
+{
+  "name": "1247",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "watch -n 2 'touch index.js; echo restarted'",
+    "start": "nodemon --spawn index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
