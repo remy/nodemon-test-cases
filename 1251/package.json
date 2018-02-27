@@ -1,0 +1,17 @@
+{
+  "name": "1251",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch server --exec node_modules/.bin/ts-node -- server/dev.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^5.0.0",
+    "typescript": "^2.7.2"
+  }
+}

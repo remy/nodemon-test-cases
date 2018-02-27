@@ -1,22 +1,33 @@
-import url from 'url'
-import path from 'path'
-import process from 'process'
-import Module from 'module'
+import url from 'url';
+import path from 'path';
+import process from 'process';
+import Module from 'module';
 
-const builtIns = Module['builtinModules']
-const jsExtensions = ['.js', '.mjs']
+const builtins = Module.builtinModules;
 
-export const resolve = (specifier, parentModuleUrl, defaultResolver) => {
-    if (builtIns.includes(specifier)) {
-        return { url: specifier, format: 'builtin' }
-    }
-    if (/^\.{0,2}[/]/.test(specifier) !== true && !specifier.startsWith('file:')) {
-        return defaultResolver(specifier, parentModuleUrl)
-    }
-    const resolvedUrl = new url.URL(specifier, parentModuleUrl)
-    const ext = path.extname(resolvedUrl.pathname)
-    if (!jsExtensions.includes(ext)) {
-        throw new Error(`could not load file with non-js file extension ${ext}`)
-    }
-    return { url: resolvedUrl.href, format: 'esm' }
+const JS_EXTENSIONS = new Set(['.js', '.mjs']);
+
+export function resolve(specifier, parentModuleURL/*, defaultResolve */) {
+  if (builtins.includes(specifier)) {
+    return {
+      url: specifier,
+      format: 'builtin'
+    };
+  }
+  if (/^\.{0,2}[/]/.test(specifier) !== true && !specifier.startsWith('file:')) {
+    // For node_modules support:
+    // return defaultResolve(specifier, parentModuleURL);
+    throw new Error(
+      `imports must begin with '/', './', or '../'; '${specifier}' does not`);
+  }
+  const resolved = new url.URL(specifier, parentModuleURL);
+  const ext = path.extname(resolved.pathname);
+  if (!JS_EXTENSIONS.has(ext)) {
+    throw new Error(
+      `Cannot load file with non-JavaScript file extension ${ext}.`);
+  }
+  return {
+    url: resolved.href,
+    format: 'esm'
+  };
 }

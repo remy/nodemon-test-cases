@@ -1,0 +1,13 @@
+{
+  "name": "1236",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -x \"node --experimental-modules --loader ./custom-loader.mjs\" -e graphql,js,mjs,json main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
