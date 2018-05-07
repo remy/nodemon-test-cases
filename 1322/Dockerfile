@@ -17,7 +17,7 @@ RUN curl --silent --location https://deb.nodesource.com/setup_9.x | bash -
 RUN apt-get install --yes nodejs build-essential
 
 # Install app dependencies
-RUN npm install -g npx
+RUN npm install -g npx nodemon
 
 # Bundle app source
 # Trouble with COPY http://stackoverflow.com/a/30405787/2926832
