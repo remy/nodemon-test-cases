@@ -1,0 +1,1 @@
+for i in $(seq 1 100); do for j in $(seq 1 100); do cp ../http.js ./file-$i-$j.js; done; done

@@ -1,5 +1,5 @@
 {
-  "name": "1202",
+  "name": "1336",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,10 +8,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.16.2",
-    "ts-node": "^6.0.2",
-    "typescript": "^2.8.3"
-  }
+  "license": "ISC"
 }

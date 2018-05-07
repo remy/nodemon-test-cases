@@ -1,0 +1,10 @@
+{
+  "verbose": true,
+  "ignore": ["*.log", "**/.DS_Store"],
+  "ext": "js json",
+  "exec": "node server/server.js",
+  "events": {
+    "_watching": "echo $FILENAME"
+  },
+  "watch": ["package.json", "nodemon.json", "server/", ".eslintrc"]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "nodemon-issue-1283",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development nodemon --debug server/server.js"
+  },
+  "lint-staged": {
+    "*.js": [
+      "format-prettier",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "nodemon": "1.14.12"
+  },
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "author": "Alex Ilyaev",
+  "license": "MIT"
+}

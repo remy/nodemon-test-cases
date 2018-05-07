@@ -1,5 +1,5 @@
 {
-  "name": "1202",
+  "name": "nodemon-test-1.17.1",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,8 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.2",
-    "ts-node": "^6.0.2",
-    "typescript": "^2.8.3"
+    "nodemon": "^1.17.1"
   }
 }

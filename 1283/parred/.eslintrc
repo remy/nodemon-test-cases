@@ -1,0 +1,76 @@
+{
+  "root": true,
+
+  "plugins": [
+
+  ],
+
+  "extends": ["eslint:recommended"],
+
+  "env": {
+    "es6": true,
+    "jasmine": true,
+    "commonjs": true,
+    "node": true
+  },
+
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "script"
+  },
+
+  "rules": {
+    // Warning
+    "max-len": [1, { "code": 100, "ignoreUrls": true }],
+    "no-console": 1,
+    "no-debugger": 1,
+    "no-unreachable": 1,
+    "no-unused-vars": [1, { "vars": "all", "args": "after-used" }],
+    "newline-after-var": [1, "always"],
+    "operator-linebreak": [1, "after", { "overrides": { "?": "before", ":": "before" } }],
+    "newline-before-return": 1,
+    "prefer-arrow-callback": 1,
+    "prefer-const": 1,
+    "no-mixed-spaces-and-tabs": 1,
+    "no-multi-spaces": [1, {
+      "exceptions": {
+        "VariableDeclarator": true,
+        "ImportDeclaration": true,
+        "ImportSpecifier": true,
+        "AssignmentExpression": true,
+        "ClassProperty": true
+      }
+    }],
+    "key-spacing": [1, { "mode": "strict" }],
+    "no-warning-comments": [1, { "terms": ["fixme", "todo", "hack", "review", "xxx"] }],
+    "eol-last": 1,
+    "no-trailing-spaces": 1,
+    "semi": [1, "always"],
+    "semi-style": [1, "last"],
+    "semi-spacing": [1, {"before": false, "after": true}],
+    "no-extra-semi": 1,
+    "no-multiple-empty-lines": [1, { "max": 1 }],
+    "no-useless-constructor": 1,
+
+    "indent": [1, 2, { "SwitchCase": 1 }],
+    "quotes": [1, "single", { "allowTemplateLiterals": true }],
+    "linebreak-style": [1, "unix"],
+    "no-else-return": 1,
+    "brace-style": [1, "1tbs", { "allowSingleLine": false }],
+    "curly": [1, "all"],
+    "object-curly-spacing": [1, "always"],
+    "arrow-parens": [1, "as-needed"],
+    "space-before-blocks": [1, "always"],
+    "arrow-spacing": 1,
+    "keyword-spacing": 1,
+    "no-inline-comments": 1,
+    "spaced-comment": [1, "always", { "exceptions": ["-"] }],
+    "switch-colon-spacing": [1, {"before": false, "after": true}],
+    "no-nested-ternary": 1,
+    "no-unneeded-ternary": [1, { "defaultAssignment": false }],
+    "no-var": 1,
+    "eqeqeq": [1, "always"],
+    "no-return-assign": 1,
+    "no-multi-str": 1,
+  }
+}

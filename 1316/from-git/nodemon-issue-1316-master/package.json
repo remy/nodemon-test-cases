@@ -1,0 +1,15 @@
+{
+  "name": "nodemon-issue-1316",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "mon": "nodemon app.js"
+  },
+  "dependencies": {
+    "koa": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
