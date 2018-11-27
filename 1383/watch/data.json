@@ -1,0 +1,6 @@
+{
+  "script": "http.js",
+  "ext": "json",
+  "ignore": [".git", "node_modules/**/node_modules"],
+  "watch": "watchPath"
+}

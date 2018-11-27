@@ -1,7 +1,7 @@
 import { createReadStream } from 'fs'
 import * as http from 'http'
 
-const server = http.createServer((req, res) => res.end("ok"));
+const server = http.createServer((req, res) => res.end("!?!"));
 
 server.listen(3000, err => {
   if (err) throw err

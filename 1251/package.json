@@ -2,10 +2,9 @@
   "name": "1251",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+
   "scripts": {
-    "start":
-      "nodemon --watch server --exec ts-node -- server/dev.ts",
+    "start": "nodemon --watch server --exec ts-node server/dev.ts",
     "1268": "nodemon --watch server --exec ts-node -- server/dev.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

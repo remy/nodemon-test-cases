@@ -1,0 +1,15 @@
+{
+  "name": "1466",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ../../bin/nodemon.js -r ./index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "description": ""
+}
