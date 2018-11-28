@@ -1,0 +1,12 @@
+{
+  "name": "1443",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --ext js,env --watch .env --watch ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
