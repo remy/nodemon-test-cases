@@ -1,0 +1,14 @@
+{
+  "name": "",
+  "version": "1.4.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "watch": "./node_modules/.bin/nodemon --inspect --watch ./src ./src/index.js",
+    "test": "echo 'no test implemented !!'"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^1.18.8"
+  }
+}

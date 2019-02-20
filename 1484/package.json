@@ -1,0 +1,22 @@
+{
+  "name": "nodemon-test",
+  "version": "0.0.1",
+  "private": true,
+  "entry": "./server.js",
+  "nodemonConfig": {
+    "verbose": true,
+    "events": {
+      "crash": "echo \"[nodemon] crashed at $(date)\";",
+      "start": "echo \"[nodemon] started at $(date)\";",
+      "restart": "echo \"[nodemon] restarted at $(date)\";"
+    }
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "nodemon": "*"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "grpc": "^1.16.1"
+  }
+}

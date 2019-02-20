@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# npm run start-nodemon | tee -a /var/logs/app.log
+npx nodemon --exec babel-node -- ./server.js
